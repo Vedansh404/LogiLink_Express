@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* .App {
+  backgroundimage: url("https://img.freepik.com/free-photo/logistics-transportation-container-cargo-ship-cargo-plane-with-working-crane-bridge-shipyard-sunrise-logistic-import-export-transport-industry-background-ai-generative_123827-24177.jpg") !important;
+} */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 800 !important;
+  font-optical-sizing: auto !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  background-color: red !important;
+  color: white !important;
+  font-weight: 100;
+}
+
+.shadow-lg.p-3.mb-5.bg-body-tertiary.rounded {
+  border-radius: 10% !important;
+  /* background-color: transparent !important;
+  backdrop-filter: blur(20px) !important; */
+}
+
+.fa-plus {
+  color: green;
+}
+
+.fa-minus {
+  color: red;
+}
+
+.fa-trash {
+  color: red;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(6, 6, 129);
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+/* .adminfunctions li Link {
+  color: white !important;
+  padding: 20px !important;
+} */
