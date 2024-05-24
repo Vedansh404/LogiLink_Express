@@ -3,9 +3,7 @@ const Razorpay = require("razorpay");
 const { instance } = require("../server");
 const router = express.Router();
 const { v4: uuidv4 } = require("uuid");
-const stripe = require("stripe")(
-  "sk_test_51P0QjYSBJRzp8MMkdNTv8uxAb3me57TkbRM7R73CUasQr7qJHJA1l20ul09U7a3W1cBcQKkPWEmijm3BKpr3lRem00eEMyfEsX"
-);
+const stripe = require("stripe")("");
 const Order = require("../models/orderModel");
 
 router.post("/placeorder", async (req, res) => {
